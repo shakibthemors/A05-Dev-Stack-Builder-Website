@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 py-12">
         <div className="flex flex-col gap-10 md:flex-row md:gap-40">
           <div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center justify-center md:justify-start gap-2">
               <img src={Logo} alt="Dev Stack" className="w-32" />
             </div>
 
