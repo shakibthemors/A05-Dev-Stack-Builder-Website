@@ -5,12 +5,12 @@ const Footer = () => {
     <footer className="mt-20 border-t border-gray-100 bg-white">
       <div className="container mx-auto px-6 py-12">
         <div className="flex flex-col gap-10 md:flex-row md:gap-40">
-          <div>
-            <div className="flex items-center justify-center md:justify-start gap-2">
+          <div className="w-full md:w-auto">
+            <div className="flex items-center justify-center gap-2 md:justify-start">
               <img src={Logo} alt="Dev Stack" className="w-32" />
             </div>
 
-            <p className="mt-4 max-w-sm text-center text-sm leading-6 text-gray-500 md:text-left">
+            <p className="mt-4 w-full text-center text-sm leading-6 text-gray-500 md:w-auto md:max-w-sm md:text-left">
               Curated tools, technologies, and resources for developers building
               modern software.
             </p>
